@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+body{
+    font-family: "Manrope", serif;
+    font-weight: 500;
+}
+.containerHeader {
+    margin-top: 100px;
+    margin-left: 350px;
+    margin-bottom: 40px;
+}
+.containerText {
+    display: flex;
+    align-items: center;
+}
+.iconSearch{
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
+.searchText {
+    font-size: 16px;
+    color: #888888;
+}
+.title {
+    font-family: "Manrope", serif;
+    font-weight: 700;
+    font-size: 36px;
+}
+.containerFilters {
+    display: flex;
+    justify-content: center;
+}
+.image {
+    float: left;
+    display: flex;
+    height: 100px;
+    margin-right: 24px;
+    align-items: center;
+}
+.FadersHorizontal {
+    width: 32px;
+    height: 32px;
+}
+.filters {
+    width: 1156px;
+}
+.filtersUp {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1157px;
+}
+.filtersDown {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1157px;
+}
+select {
+    padding: 10px 16px;
+    width: 370px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-right: 23px;
+    margin-bottom: 16px;
+    color: #0000004D;
+    appearance: none;
+    background: url(../../public/images/arrow_custom.svg) no-repeat right;
+    background-position-x: calc(100% - 20px);
+    cursor: pointer;
+    font-size: 16px;
+}
+select:last-child {
+    margin-right: 0px;
+}
+select:hover {
+    color: #1B40F4;
+    background: url(../../public/images/arr_custom_blue.svg) no-repeat right;
+    background-color: #F2F4FF;
+    background-position-x: calc(100% - 20px);
+}
+select:focus {
+    color: #121212;
+    background-color: white;
+}
+option {
+    color: #121212;
+}
+.buttons {
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+}
+.clear {
+    padding: 12px 16px;
+    margin-right: 16px;
+    border-radius: 99px;
+    border: #0000004D 1px solid;
+    background-color: white;
+    color: #0000004D;
+    cursor: pointer;
+    font-size: 14px;
+}
+.clear:hover {
+    color: #1B40F4;
+}
+.apply {
+    padding: 12px 16px;
+    border-radius: 99px;
+    border: #0000004D none;
+    background-color: #1B40F4;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 14px;
+}
+.apply:hover {
+    color: rgb(88, 217, 235);
+}
+.results {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
